@@ -52,6 +52,7 @@ export const calculateNextPosition = (
     currentPosition.horizontalPosition + directionDataPoint.forward,
 });
 
+
 export const calculatePositionFromDirectionalData = (
   testData: DirectionInput[]
 ) =>
@@ -67,3 +68,4 @@ export const calculatePositionFromDirectionalData = (
       aim: 0,
     } as Position
   );
+
