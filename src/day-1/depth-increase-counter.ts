@@ -1,6 +1,6 @@
-const isPositive = (num: number) => num > 0;
-const isNegative = (num: number) => num < 0;
-const isZero = (num: number) => num === 0;
+export const isPositive = (num: number) => num > 0;
+export const isNegative = (num: number) => num < 0;
+export const isZero = (num: number) => num === 0;
 
 const regularMode = (depthData: number[]) => {
   let count = 0;
